@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Flip Cards</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+  <script defer src="flipcards.js"></script>
+  <link rel="stylesheet" href="flipcards.css" />
+</head>
+
+<body>
+  <h1>
+    <span>♠️♣️</span> Flip Cards <span>♦♥</span>
+  </h1>
+  <label for="input">
+    How many cards? <input type="number" id="input" value="4" />
+    <button>Generate</button>
+    <h2>Good Luck!</h2>
+  </label>
+  <div id="container">
+    <div class="flip-card clicked">
+      <div class="flip-card-inner">
+        <div class="flip-card-front"></div>
+        <div class="flip-card-back">X</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
